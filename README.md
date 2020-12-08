@@ -12,6 +12,34 @@ The About Veganism page provides information about veganism and external resourc
 # Video
 Click this link for the video walkthrough: https://youtu.be/RsRYtVAmywg 
 
+# Video Transcript
+Hi, my name is Katrina Janeczko and I am a sophomore at Temple University. 
+In this video I'm going to walk you through my final project for my first ever compsci course, CIS 1051, or Intro to Problem Solving and Programming in Python. 
+First I’m just gonna register, login, and show you how it works while I give you a little bit of a backstory.
+So I went vegan a couple years ago, and if you don’t know, it’s basically a diet free from animal products. 
+By now, I’m pretty well versed in quickly scanning through an ingredients list and being able to decipher whether a food product is vegan or not. 
+But it can be annoying and tricky when the ingredients lists are super long and are printed really tiny and squished on a package. 
+And so with my web app, you can actually upload a picture either here or here if you click Look Up, and it’ll tell you actually whether it's vegan or not. 
+Here I’ve got a couple sample images I’d already taken. This one is of bagels, and we're gonna find out whether they are vegan or not based on the barcode.
+As you can see here, they are vegan. It'll also give you the brand, product name, the barcode, the ingredients list,
+and it’ll also spit back the picture you gave it but with a green rectangle around the barcode. 
+Next up we’ll try Hot Pockets. Spoiler alert, they are not vegan.
+They've got ham, cheese, and a whole bunch of offending ingrdients in them.
+As you can see, it'll tell you the reason it's not vegan it because of the ham. That's because the program will identify the first offending ingredient.
+Now if I go over to the History page, I can see all my past lookups, 
+and clicking this link over here that's green will take me to the barcode database website where I got the information. 
+And clicking About Veganism brings me to some info and resources about the diet. 
+And I know what what you're thinking, "I'm not gonna carry my PC around Giant and 7-11, how the heck am I gonna use this?!" 
+and don't you worry cause there is a mobile version.
+A couple things gave me the idea for this project, one of them being when my mom came home from the grocery store complaining how difficult it was to tell whether this bread was vegan cause it’s so hard to read and she wasnt really sure whether certain ingredients were vegan. 
+Like, what the heck is monodiglycerides anyway, she shouldn’t have to google that to buy me bread.
+After taking this class, my biggest takeaway is: why do something by hand when you can automate it and make life easier?
+And so boom, there you have it, snap a picture and find out if it’s vegan in a matter of seconds.
+And all it took was hours and hours and hours of my blood, sweat, and tears to learn Flask, HTML, cCSS, OpenCV, and SQLite,
+and some more things like how to use VSCode and how to read things on StackExchange.
+No but, in all seriousness, this project is very important to me. It certainly isn’t finished, but I don't remember the last time i was this proud of myself. 
+And I can’t wait to make it better. Thank you to Professor Rosen and my TA Tamara for helping me on this learning journey.
+
 # How It's Organized
 I used the Flask Python web app framework, and so app.py is where everything is basically run from. 
 It has all the routes, which include functions which run some Python code and/or open one of the HTML pages from the /templates folder.
