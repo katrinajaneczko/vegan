@@ -1,0 +1,97 @@
+/* I used https://getbootstrap.com/docs/3.4/css/ and https://www.w3schools.com/bootstrap4/ for my site's CSS*/
+
+.navbar-custom
+{
+    background-color: #fccb93;
+}
+nav .navbar-brand
+{
+    /* size for brand */
+    font-size: xx-large;
+}
+
+/* colors for brand */
+.orange
+{
+    color: #fccb93;
+}
+
+.dark-orange
+{
+    color: #f1970f;
+}
+.green
+{
+    color: #2e944b;
+}
+
+nav .nav-link
+{
+    color: #2e944b
+}
+
+.logo
+{
+    height: 7%;
+    width: 7%;
+}
+
+main .form-control
+{
+    /* center form controls */
+    display: inline-block;
+
+    /* override Bootstrap's 100% width for form controls */
+    width: auto;
+}
+
+main
+{
+    /* scroll horizontally as needed */
+    overflow-x: auto;
+
+    /* center contents */
+    text-align: center;
+}
+
+a
+{
+    color: #36b346;
+}
+
+.left-align
+{
+    text-align: left;
+}
+/* a:visited
+{
+    color:green
+} idk why this isnt working*/
+
+
+#list-title
+{
+    text-align: center;
+    color: #f1970f;
+}
+
+#sublist-title
+{
+    font-weight: bold;
+}
+
+.mylist
+{
+    text-align: left;
+}
+
+main img
+{
+    /* constrain images on small screens */
+    max-width: 100%;
+}
+
+th
+{
+    width: 20%; 
+}

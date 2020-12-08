@@ -1,0 +1,17 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Barcode Info
+{% endblock %}
+
+{% block main %}
+    <p>Brand: {{ product_info["brand"] }}</p>
+    <p>Product name: {{ product_info["title"] }}</p>
+    <p>Barcode: {{ product_info["ean"] }}</p>
+    <p>Ingredients: {{ product_info["description"].strip("INGREDIENTS:") }}</p>
+    <p>Vegan?: {{ vegan_status }} </p>
+    {% if vegan_status == "No" %}
+        <p>Reason: {{ reason }} </p>
+    {% endif %}
+    <img src={{ modified_img }} style="height: 50%; width: 50%"">
+{% endblock %}

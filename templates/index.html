@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Index
+{% endblock %}
+
+{% block main %}
+    <h4>Hi there!</h4>
+    <h2>Welcome to the <b><span class="green">Is It Vegan?</span></b> web app.</h2>
+    <h4>Look up a barcode <a href="/barcode">here</a></h4>
+    <br>
+
+    <h5 class="left-align dark-orange">So, what is it, anyway?</h5>
+    <p class="left-align">This web app was built to make the endeavor of checking whether a food product is vegan or not a bit easier. All you have to do is snap a photo of the barcode of the food product in question and upload it to the site. Then, using a barcode database, we'll show you some info about the product and conclude whether its ingredients are vegan or not.</p>
+    <br>
+
+    <h5 class="left-align dark-orange">Okay, why should I care?</h5>
+    <p class="left-align">Good question! Maybe you're newly vegan and are struggling with figuring out how to tell if the ingredients in a product are vegan, or maybe you're a seasoned pro at the task but you'd prefer not to scan through the long, squashed, fine-printed ingredients lists on a new product you find at the store. Either way, this web app is a timesaver. Alright, perhaps you're not vegan. Maybe you have a friend or family member that is. Picture this scenario: you and your friends are getting together for a movie night and you're in charge of snacks. You're strolling through the chip aisle of the grocery store when suddenly you remember that one of your friends is vegan! You don't want them to feel left out, so you try to find a vegan snack. But ingredients lists are long and confusing, you're not entirely sure whether "whey" is vegan, you don't want to bother your friend with questions about what they can eat. Wouldn't it be so much easier to just pull up a certain web app, scan the barcode of whatever product you pick up, and instantly know whether it's vegan? Mhm, you bet.</p>
+    <br>
+
+    <h5 class="left-align dark-orange">Oh that's pretty cool.</h5>
+    <p class="left-align">Yes. Yes it is. Thank you. I spent a lot of time on this. Feel free to <a href="/barcode">lookup a barcode</a>. Don't worry, we'll keep a <a href="/history.html">log of your past lookups</a> so you don't have to memorize which products were vegan or not. And if you're not vegan but you're curious about why someone might be, go ahead and check out <a href="/about">this info</a>. There's some neat resources for already-vegans, there, too!</p>
+    <br>
+
+{% endblock %}

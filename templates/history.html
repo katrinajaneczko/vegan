@@ -1,0 +1,30 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    History
+{% endblock %}
+
+{% block main %}
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">Brand</th>
+          <th scope="col">Title</th>
+          <th scope="col">Vegan Status</th>
+          <th scope="col">Barcode</th>
+          <th scope="col">Date</th>
+        </tr>
+      </thead>
+      <tbody>
+    {% for lookup in lookups %}
+      <tr>
+        <td>{{ lookup[0] }}</td>
+        <td>{{ lookup[1] }}</td>
+        <td>{{ lookup[2] }}</td>
+        <td> <a href={{ lookup[4] }} target="_blank" >{{ lookup[3] }}</a></td>
+        <td>{{ lookup[5] }}</td>
+      </tr>
+    {% endfor %}
+      </tbody>
+    </table>
+{% endblock %}
