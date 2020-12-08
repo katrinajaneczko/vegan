@@ -37,7 +37,7 @@ After taking this class, my biggest takeaway is: why do something by hand when y
 And so boom, there you have it, snap a picture and find out if it’s vegan in a matter of seconds.
 And all it took was hours and hours and hours of my blood, sweat, and tears to learn Flask, HTML, cCSS, OpenCV, and SQLite,
 and some more things like how to use VSCode and how to read things on StackExchange.
-No but, in all seriousness, this project is very important to me. It certainly isn’t finished, but I don't remember the last time i was this proud of myself. 
+No but, in all seriousness, this project is very important to me. It certainly isn’t finished, but I don't remember the last time I was this proud of myself. 
 And I can’t wait to make it better. Thank you to Professor Rosen and my TA Tamara for helping me on this learning journey.
 
 # How It's Organized
