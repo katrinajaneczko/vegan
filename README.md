@@ -54,7 +54,7 @@ Then barcodeinfo.html shows text and an image thanks to Django, using {% %} to i
 barcodes.db has the database info in it, which I open with DB Broswer for SQLite.
 helpers.py are juust some helper functions (I got the idea from the CS50 course from their Finance project).
 
-#What I Did
+# What I Did
 I used the web track from the CS50 course at https://cs50.harvard.edu/x/2020/tracks/web/ to learn a lot of what I needed to know, and I used their /finance project as a basis for which to make my own web app.
 I made the program using OpenCV documentation here https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_setup/py_intro/py_intro.html.
 I used Bootstrap and CSS to make my site look nice. https://getbootstrap.com/docs/3.4/css/
