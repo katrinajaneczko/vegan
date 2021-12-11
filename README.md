@@ -2,7 +2,7 @@
 For my final project, I decided to make Is It Vegan?. I used Flask, JavaScript, HTML, CSS, OpenCV, and SQLite to do so.
 This web app was built to make the endeavor of checking whether a food product is vegan or not a bit easier. 
 A user takes a photo of the barcode of the food product in question and uploads it to the site. 
-Then, using a barcode database, the program run and shows the user some info about the product and concludes whether its ingredients are vegan or not.
+Then, using a barcode database, the program runs and shows the user some info about the product and concludes whether its ingredients are vegan or not.
 It also displays a modified version of the original image but with a green rectangle around the barcode.
 The Look Up page lets you upload and look up a barcode. 
 Under History is a log of the user's past lookups.
@@ -44,7 +44,7 @@ And I can’t wait to make it better. Thank you to Professor Rosen and my TA Tam
 I used the Flask Python web app framework, and so app.py is where everything is basically run from. 
 It has all the routes, which include functions which run some Python code and/or open one of the HTML pages from the /templates folder.
 The templates all extend layout.html so they all have a horizontal nav bar and the same look.
-There is an ability to register for an account and login, for which I used SQLite. 
+There is an ability to register for an account and login, for which I used SQLite as the database. 
 I make sure the password is hashed before storing it and usernames cannot be repeated.
 The page apology.html corresponds with the apology function which renders an apology message custom to the problem when something goes wrong 
 (like if the barcode cannot be read or doesn't exist in the database).
@@ -64,7 +64,7 @@ Then I wrote a program to check whether ingredients in a list were vegan or not.
 Oh, and I also made the little carrot logo with Google Drawings!
 
 # How It Works
-When a user uploads an image to the form on barcodeupload.html, it is first retrieved and read into stirng data, 
+When a user uploads an image to the form on barcodeupload.html, it is first retrieved and read into string data, 
 which is converted to a numpy array.
 Using cv2, this is converted to a an image that OpenCV can read and decode. 
 The modify() function takes the uploaded image and decoded object and finds the points of the rectangle formed by the barcode, 
