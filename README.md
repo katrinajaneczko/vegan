@@ -78,7 +78,7 @@ Now, the function vegan_check() will do some file reading.
 It turns the not_vegan_list.txt, which is a list of nonvegan ingredients, into a list called nonvegan, as well as vegan_exceptions.txt into a list called exceptions.
 Lots of stripping and replacing is involved in this next step, wherein the ingredients that come from the json file
 are read into a list called ingredients.
-Then, a nexted for loop with an if statement checks for each ingreident in ingredients, for each item in nonvegan,
+Then, a nexted for loop with an if statement checks for each ingredient in ingredients, for each item in nonvegan,
 if the string for item is in the string for ingredient, and the string "vegan" is not in the ingredient (to account for an ingredient like "vegan chicken")
 and the string for ingredient is not in the exceptions list (to account for items like "almond milk"),
 then the function returns a list of 2 things: a string "No" and the offending ingredient.
