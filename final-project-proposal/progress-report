@@ -1,0 +1,54 @@
+# Status Report
+
+#### Your name
+
+Katrina Janeczko
+
+#### Your section leader's name
+
+N/A
+
+#### Project title
+
+Is It Vegan?
+
+***
+
+Short answers for the below questions suffice. If you want to alter your plan for your project (and obtain approval for the same), 
+be sure to email your section leader directly!
+
+#### What have you done for your project so far?
+
+I have created a web app called Is It Vegan using Flask/Python, HTML, CSS, and SQLite that has the following pages: 
+Index, Look Up, History, and About Veganism. The Index page gives an introduction to the web app, why it's useful, 
+and how it works. Look Up allows a user to upload a picture of a barcode of a food product and then a program I wrote 
+with Python/Flask/csv will read, decode, and extract information from the barcode including the name, brand, and ingredients. 
+It will then display whether the product is vegan or not (if it isn't, then it'll also display the first detected offending ingredient) 
+and also a modified version of the original image but with a green rectangle drawn around the detected barcode. 
+The History page shows a log of past lookups along with a timestamp and relevant info. The About Veganism page gives information 
+on what veganism is and some resources related to it. The site also has Registration, Login, and Logout features. To store all 
+this information for each individual user, I used SQLite to create a database. The passwords get hashed before being stored and 
+usernames cannot be repeated. Oh, and I also designed a cute little logo/icon for my site using Google Drawings!
+
+#### What have you not done for your project yet?
+
+I must still finish making the website by adding pictures and just making it look nicer. Also, I want to make sure it can 
+be viewed as a mobile version. I need to add code to my barcode reader program that tells it to ignore QR codes. I want to 
+add specific error messages. I also want to see if I can improve/simplify the process of checking the ingredients list of the 
+product against the nonvegan ingredients list, because right now it's pretty complicated and not straightforward.
+
+#### What problems, if any, have you encountered?
+
+Some barcodes, for example for very new products or for products that are not for individual sale or for products that are
+only present in a local grocery store and nowhere else, do not appear in the barcode database I am using. So, I have an error 
+message that is displayed to the user if their barcode isn't in the database. Additionally, if the barcode picture is too blurry 
+or the lighting is too dark, it won't be able to be read (but that is expected). Another problem is that if their is a barcode and
+a QR code in the same picture, the reader will show an error and be unable to tell which is the barcode it should be focusing on;
+I still have to fix this.
+
+I of course ran into many other problems as well, but with hours of googling, scouring StackExchange, YouTube, W3Schools, 
+and lots and lots of trial and error, I was able to solve them. I plan to do the same for the other fixable problems I mentioned. 
+Honestly, one of my biggest problems starting out was just a lack of knowledge. How do I know what to google if I don't even 
+understand what I'm doing? This got very frustrating, but then I was able to figure it out. Now, I know more about how to use 
+the terminal, install things using pip3, use VSCode, play around with Bootstrap and CSS, use SQL and Flask, sort through 
+StackExchange posts, be more patient with my code when it isn't working, and more. These are huge steps in my learning that I'm very proud of. 

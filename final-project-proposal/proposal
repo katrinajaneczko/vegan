@@ -1,0 +1,38 @@
+# Proposal
+
+## What will (likely) be the title of your project?
+Is It Vegan?
+
+## In just a sentence or two, summarize your project. (E.g., "A website that lets you buy and sell stocks.")
+A webapp where you can upload a picture of a food product's barcode and it'll tell you whether it's vegan or not.
+
+## In a paragraph or more, detail your project. What will your software do? What features will it have? How will it be executed?
+
+A user will be able to either upload/scan a picture of a barcode or type in the barcode number into a form on the Is It Vegan web app. A program that I will write will then extract the code, look it up in a barcode database (I am using https://www.upcitemdb.com), determine the ingredients from the manufacturer (if documented and of course if the food item exists in the database), cycle through each listed ingredient and check if any of them are included in a comprehensive list of nonvegan ingredients (such as dairy, eggs, meat, honey, etc), and if there's a match it'll show the user that the food item is not vegan while if there is not match then it will display that it is vegan. I will also add the feature of "recent searches" so that a user can see their past recent lookups. It will be on a webapp using Flask.
+
+## If planning to combine 1051's final project with another course's final project, with which other course? And which aspect(s) of your proposed project would relate to 1051, and which aspect(s) would relate to the other course?
+
+N/A
+
+## If planning to collaborate with 1 or 2 classmates for the final project, list their names, email addresses, and the names of their assigned TAs below.
+
+N/A
+
+## In the world of software, most everything takes longer to implement than you expect. And so it's not uncommon to accomplish less in a fixed amount of time than you hope.
+
+### In a sentence (or list of features), define a GOOD outcome for your final project. I.e., what WILL you accomplish no matter what?
+
+My good outcome is ending up with a program that reads a barcode of a product and can display its ingredients (or else display a message saying that there's no information for that product available). 
+
+### In a sentence (or list of features), define a BETTER outcome for your final project. I.e., what do you THINK you can accomplish before the final project's deadline?
+
+On top of the good outcome, the better outcome would also include being able to somewhat accurately tell whether a food product is vegan or not and also I would accomplish creating a basic 
+on which a user could interact with the program.
+
+### In a sentence (or list of features), define a BEST outcome for your final project. I.e., what do you HOPE to accomplish before the final project's deadline?
+
+I hope to accomplish the better outcome plus a very nice-looking webapp instead of just a basic website, as well as having the program be accurate at least 90% of the time. 
+
+## In a paragraph or more, outline your next steps. What new skills will you need to acquire? What topics will you need to research? If working with one of two classmates, who will do what?
+
+I will need to research how barcodes work, API's, pyzbar, openCV, and possibly webscraping. I'm also learning to use VSCode. I'll also need to somehow obtain or otherwise create a list of nonvegan ingredients. Ideally, I wanted to make a mobile app, but unfortunately that may be a project for another day because as of right now, I don't have the time to brave that learning curve. Instead, I'll make a website/web app, which means I'll have to learn more about using html, css, javascript, and flask. My next steps are researching and creating a csv file for nonvegan ingredients to look out for and also learning flask. I will also read documentation for pyzbar and openCV to try to get a better sense of how those work. I will use that research to write my program (which I have already started in python).
